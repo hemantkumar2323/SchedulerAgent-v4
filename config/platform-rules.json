@@ -1,0 +1,6 @@
+=== config/platform-rules.json ===
+```json
+{
+  "instagram": { "maxPostsPerDay": 3, "cooldownMinutes": 60 },
+  "tiktok": { "maxPostsPerDay": 5, "cooldownMinutes": 30 }
+}
