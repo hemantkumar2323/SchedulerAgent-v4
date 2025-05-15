@@ -1,0 +1,6 @@
+=== config/post-timing-performance.json ===
+```json
+{
+  "instagram": { "bestTimes": ["12:00", "18:00", "08:00"] },
+  "tiktok": { "bestTimes": ["20:00", "09:30", "14:00"] }
+}
