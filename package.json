@@ -1,1 +1,24 @@
-// Placeholder for /package.json
+=== package.json - SCHEDULER AGENT ===
+```json
+{
+  "name": "scheduler-agent",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "schedule": "node api/schedulePost.js",
+    "publish": "node api/publishNow.js",
+    "optimize": "node utils/slotOptimizer.js"
+  },
+  "dependencies": {
+    "express": "^4.18.0",
+    "dotenv": "^16.4.5",
+    "winston": "^3.11.0",
+    "winston-daily-rotate-file": "^4.7.1",
+    "express-async-errors": "^3.1.1",
+    "pg": "^8.11.3"      // Added for potential database
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
