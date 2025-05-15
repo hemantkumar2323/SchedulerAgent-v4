@@ -1,4 +1,4 @@
-=== api/postNow.js.js ===
+=== api/schedulePost.js ===
 ```javascript
 const express = require('express');
 const router = express.Router();
